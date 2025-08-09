@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "weather-service": {
+      "command": "java",
+      "args": [
+        "-jar",
+        "D:/newMcp-weather/starter-stdio-server/target/mcp-weather-stdio-server-0.0.1-SNAPSHOT.jar"
+      ]
+    }
+  }
+}

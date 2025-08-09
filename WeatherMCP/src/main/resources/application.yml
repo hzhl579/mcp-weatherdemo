@@ -1,0 +1,22 @@
+server:
+  port: 8081
+
+spring:
+  #  main:
+  #    web-application-type: none
+  ai:
+    mcp:
+      client:
+        toolcallback:
+          enabled: true
+        stdio:
+          root-change-notification: true
+          servers-configuration: classpath:/config/mcp-servers-config.json
+        request-timeout: 360s
+    ollama:
+      base-url: http://7eb871a73f5c4dcb9379-qwq-api.gcs-xy1a.jdcloud.com/
+
+
+
+
+
